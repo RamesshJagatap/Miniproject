@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+ .centre{
+    text-align: center;
+    background: black;
+    color: white;
+}
+.row{
+    text-align: center;
+    color: teal;
+    padding: auto;
+}
+.container{
+    margin: 20px;
+    max-width: 20;
+    
+}
+.button{
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 1rem;
+    border: 2px solid black;
+
+}
+.row{
+    margin: -3px 0;
+}
+ .input{
+    margin: 10px;
+    padding:3px 19px; ;
+ }
+
+    
