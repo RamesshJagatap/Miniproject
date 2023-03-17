@@ -1,49 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css"/>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  
-<body>
-    <h1 class="centre">Welcome to Calculator </h1>
-    <div class="container">
-      <div class="row">
-        <input class="input"type="text"/>
-      </div>
-     <div class="row">
-       <button class="button">7</button>
-       <button class="button">8</button>
-       <button class="button">9</button>
-       <button class="button">*</button>
-      </div>
-      <div class="row ">
-       <button class="button">4</button>
-       <button class="button">5</button>
-       <button class="button">6</button>
-       <button class="button">+</button>
-       </div>
-       <div class="row">
-       <button class="button">1</button>
-       <button class="button">2</button>
-       <button class="button">3</button>
-       <button class="button">/</button>
-       </div>
-       <div class="row">
-       <button class="button">0</button> 
-       <button class="button">%</button>
-       <button class="button">.</button>
-       <button class="button">=</button>
-     </div>
-     
 
-        
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Apply Here!</h1><span>(Job Applicaiton)</span>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" placeholder="Enter Your First Name...">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" placeholder="Enter Your Last Name...">
+                    </div>
+
+                    <div class="form_control">
+
+                        <label for="email">Email Id:</label>
+                        <input type="text" id="email" placeholder="Enter Your Email...">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="dropdwon">Job Role:</label>
+                        <select name="dropdwon" id="dropdwon">
+                            <option value="">Select Your Job Role</option>
+                            <option value="frontend">frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="Fullstack">Fullstack Developer</option>
+                            <option value="designer">Web designer</option>
+                        </select>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="address">Your Address:</label>
+                        <textarea name="address" id="address" cols="30" rows="10"
+                            placeholder="Enter Your Full Address.."></textarea>
+
+                    </div>
+
+                    <div class="form_control">
+
+                        <label for="city">City:</label>
+                        <input type="text" id="city" placeholder="Enter Your City...">
+                    </div>
+
+
+                    <div class="form_control">
+
+                        <label for="pincode">Pincode:</label>
+                        <input type="number" id="pincode" placeholder="Enter Your pin...">
+                    </div>
+                    <div class="form_control">
+
+                        <label for="date">Email Id:</label>
+                        <input type="date" id="date" placeholder="Applied date..">
+
+                    </div>
+                    <div class="form_control">
+
+                        <label for="cv">Upload Your CV:</label>
+                        <input type="file" id="cv" placeholder="choose your file...">
+                    </div>
+                    <div class="submitt">
+                        
+                        <button type="Submit"> Apply Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-    <script src="script.js"></script>   
 </body>
-</html> 
+
+</html>
